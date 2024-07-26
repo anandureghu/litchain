@@ -1,0 +1,15 @@
+.question:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(116, 116, 116, 1) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 67%,
+    rgba(248, 99, 142, 1) 78%,
+    rgba(249, 196, 43, 1) 83%,
+    rgba(249, 238, 0, 1) 86%,
+    rgba(255, 0, 249, 1) 95%,
+    rgba(197, 0, 252, 1) 99%,
+    rgba(154, 0, 255, 1) 100%
+  );
+  background-size: cover;
+}
