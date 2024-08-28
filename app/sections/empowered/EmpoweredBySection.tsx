@@ -1,3 +1,5 @@
+import { smile } from "@/app/assets";
+import Image from "next/image";
 import React from "react";
 
 const EmpoweredBySection = () => {
@@ -43,7 +45,14 @@ const EmpoweredBySection = () => {
     <div className="px-[10%] mt-[150px]">
       <div className="text-8xl">
         <p>Blockchain</p>
-        <p className="gradient-text-4 w-[fit-content]">Empowered by</p>
+        <div className="relative w-fit">
+          <p className="gradient-text-4 w-[fit-content] relative">
+            Empowered by
+          </p>
+          <div className="w-fit mx-auto mt-5 absolute right-[88px] -top-[100px]">
+            <Image src={smile} alt="underline" width={105} />
+          </div>
+        </div>
       </div>
       <div className="cards grid grid-cols-3 gap-[50px] mt-10">
         {items.map((item) => {
